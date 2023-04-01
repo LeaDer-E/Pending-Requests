@@ -1,2 +1,2 @@
-# Dream Net Co. Project
+# DN Project
 Soon
