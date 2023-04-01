@@ -1,2 +1,2 @@
-# Pending-Requests
-Simple Pending Requests Application
+# Dream Net Co. Project
+Soon
