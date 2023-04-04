@@ -5,8 +5,9 @@
 
 import promptSync from 'prompt-sync';
 const prompt = promptSync({ sigint: true });
-import editingRequest from './edit.js';
+// import editingRequest from './edit.js';
 import addingTask from './add.js';
+import readingOnlyTask from './ReadOne.js';
 
 export const mainMenu = () => {
     console.clear();
@@ -38,6 +39,9 @@ export const mainMenu = () => {
               break;
             case "4":
               deleteRequest();
+              break;
+            case "5":
+              readingOnlyTask();
               break;
             default:
               console.log(`========================================`);
